@@ -5,11 +5,11 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.S3Event;
 
 public class HelloTest implements RequestHandler<String, String> {
-
+         
 	@Override
 	public String handleRequest(String input, Context context) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Input: " +  input);
 		if (input != null || input.length() !=0)
 			   return "Greeting! Hello," + input;
 		return "Hello, World!";
