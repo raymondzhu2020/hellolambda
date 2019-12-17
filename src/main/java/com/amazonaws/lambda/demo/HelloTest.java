@@ -11,7 +11,7 @@ public class HelloTest implements RequestHandler<String, String> {
 		// TODO Auto-generated method stub
 		
 		if (input != null || input.length() !=0)
-			   return "Hello1," + input;
+			   return "Hello," + input;
 		return "Hello, World!";
 	}
 
