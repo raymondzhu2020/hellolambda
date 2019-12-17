@@ -3,6 +3,7 @@ package com.amazonaws.lambda.demo;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.S3Event;
+import java.util.Map;
 
 public class HelloTest implements RequestHandler<Map<String,Object>, String> {
          
