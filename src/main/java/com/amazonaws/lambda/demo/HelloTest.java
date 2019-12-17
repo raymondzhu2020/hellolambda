@@ -10,7 +10,7 @@ public class HelloTest implements RequestHandler<Map<String,Object>, String> {
 	@Override
 	public String handleRequest(Map<String,Object> input, Context context) {
 		// TODO Auto-generated method stub
-		System.out.println("Input: " +  input);
+		System.out.println("Input 123: " +  input);
 		
 		return "Hello, World!";
 	}
